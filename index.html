@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <body>
+        <nav class="navbar navbar-dark bg-primary mb-3">
+            <div class="container">
+                <a href="#" class="navbar-brand" style="color:darkred;">  Weather web site by Ahmed Baraa shamaa To Knowit </a>
+            </div>
+        </nav>
+        <div class="container searchContainer">
+            <div class="search card card-body">
+                <h2>Få vädret för en plats</h2>
+
+                <h4 style="color:blue;" >standardstaden är karlstad men du kan byta stad genom att lägga in namnet i rutan</h4>
+
+
+                <p class="lead">Ange din plats</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Location">
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        <div class="container text-center mt-2">
+            <button class="btn btn-primary" id="submit">Skicka in</button>
+        </div>
+        
+        <div id="content">
+
+        </div>
+        <footer class="mt-5 p-3 text-center bg-light">
+            using json (the working test)  &copy;
+        </footer>
+  </body>
+  <script src="fetch.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</html>
